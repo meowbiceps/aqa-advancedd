@@ -1,10 +1,10 @@
-const averageGrade = 78;
+const averageGrade = -5;
 
 switch (true) {
-    case averageGrade < 60:
+    case (averageGrade >=0 && averageGrade < 60):
     console.log("Незадовільно");
     break;
-case averageGrade >= 60 && averageGrade <= 70:
+case averageGrade >= 61 && averageGrade <= 70:
     console.log("Задовільно");
     break;
 case averageGrade >= 71 && averageGrade <= 80:
