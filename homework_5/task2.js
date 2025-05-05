@@ -13,7 +13,7 @@ case averageGrade >= 71 && averageGrade <= 80:
 case averageGrade >= 81 && averageGrade <= 90:
     console.log("Дуже добре");
     break;
-case averageGrade >= 91 && averageGrade <- 100:
+case averageGrade >= 91 && averageGrade <= 100:
     console.log("Відмінно");
     break;
 default:
