@@ -1,13 +1,13 @@
 const number = 8;
 
-console.log("Таблиця множення (for):");
+console.log('Таблиця множення (for):');
 for (let i = 1; i <= 10; i++) {
-    console.log(`${number} x ${i} = ${number * i}`);
+	console.log(`${number} x ${i} = ${number * i}`);
 }
 
-console.log("\nТаблиця множення (while):");
+console.log('\nТаблиця множення (while):');
 let j = 1;
 while (j <= 10) {
-    console.log(`${number} x ${j} = ${number * j}`);
-    j++;
+	console.log(`${number} x ${j} = ${number * j}`);
+	j++;
 }
