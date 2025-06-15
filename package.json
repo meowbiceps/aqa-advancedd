@@ -11,6 +11,7 @@
 		"prettier": "3.5.3"
 	},
 	"scripts": {
+		"test": "stub",
 		"prepare": "husky install",
     	"lint": "npx eslint --fix ."
 	},
