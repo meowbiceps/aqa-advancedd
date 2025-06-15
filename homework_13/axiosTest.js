@@ -47,7 +47,7 @@ async function runTests() {
         console.assert(Array.isArray(todosResponse.data), 'Дані мають бути масивом');
 
         console.log('\nВсі тести пройдені успішно!');
-    }catch (error) {
+    } catch (error) {
         console.error('Тест не пройдено:', error.message);
     }
     }
