@@ -7,13 +7,12 @@
 		"eslint": "^9.28.0",
 		"eslint-plugin-react": "^7.37.5",
 		"globals": "^16.2.0",
-		"husky": "^9.1.7",
+		"jest": "^30.0.0",
 		"prettier": "3.5.3"
 	},
 	"scripts": {
-		"test": "",
-		"prepare": "husky install",
-    	"lint": "npx eslint --fix ."
+		"test": "jest",
+		"lint": "npx eslint --fix ."
 	},
 	"name": "aqa-advancedd",
 	"version": "1.0.0",
@@ -37,6 +36,7 @@
 		"at-least-node": "^1.0.0",
 		"aws-sign2": "^0.7.0",
 		"aws4": "^1.13.2",
+		"axios": "^1.10.0",
 		"base64-js": "^1.5.1",
 		"bcrypt-pbkdf": "^1.0.2",
 		"blob-util": "^2.0.2",
