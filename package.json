@@ -8,12 +8,13 @@
 		"eslint-plugin-react": "^7.37.5",
 		"globals": "^16.2.0",
 		"husky": "^9.1.7",
+		"jest": "^30.0.0",
 		"prettier": "3.5.3"
 	},
-	"scripts": {
-		"test": "",
+	"scripts": {gi
+		"test": "jest",
 		"prepare": "husky install",
-    	"lint": "npx eslint --fix ."
+		"lint": "npx eslint --fix ."
 	},
 	"name": "aqa-advancedd",
 	"version": "1.0.0",
