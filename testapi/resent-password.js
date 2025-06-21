@@ -1,7 +1,8 @@
 import fetch from 'node-fetch';
 
+
 const data ={
-    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3OGU3NzNkOS1jYTM5LTRiODMtYmRhYi0zNGNiNjhjNGI0N2QiLCJpYXQiOjE3NDk3MzQ1NTMsImV4cCI6MTc0OTczNTQ1M30.aNRxIbJgjBaWYSeGej9Lwtxa8plNtsU5D2q8LRrk32E',
+    token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3OGU3NzNkOS1jYTM5LTRiODMtYmRhYi0zNGNiNjhjNGI0N2QiLCJpYXQiOjE3NTAwMTAxNjEsImV4cCI6MTc1MDAxMTA2MX0.qsYKNPjdSg4NkCfID_7EPLJ7W46uVW7e7yawhQwNR00',
     newPassword: 'Qwerty321'
 };
 
